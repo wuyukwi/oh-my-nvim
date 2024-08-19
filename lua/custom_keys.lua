@@ -68,6 +68,7 @@ return {
 	-- Use the shortcut to format your codes.
 	format = "<leader>vv",
 
+
 	-- Custom mappings
 	yank = "<leader>y",
 	delete = "<leader>d",

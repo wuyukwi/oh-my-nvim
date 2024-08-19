@@ -36,10 +36,10 @@ return {
 
 	-- View other usage of the plugin: https://github.com/nvim-telescope/telescope.nvim
 	-- Use the shortcut to find, search files and find buffers.
-	find_files = "<leader>ff",
-	live_grep = "<leader>gg",
-	search_cursor = "<leader>cc",
-	find_buffer = "<leader>bb",
+	find_files = "<leader>f",
+	live_grep = "<leader>g",
+	search_cursor = "<leader>c",
+	find_buffer = "<leader>b",
 	-- Use the to close telescope window. <C-c> is the default setting, can't edit it here.
 	-- close_telescope  = "<C-c>",
 
@@ -67,4 +67,17 @@ return {
 	lsp_rename = "<leader>re",
 	-- Use the shortcut to format your codes.
 	format = "<leader>vv",
+
+	-- Custom mappings
+	yank = "<leader>y",
+	delete = "<leader>d",
+	paste = "<leader>p",
+	write = "<leader>w",
+	quit = "<leader>q",
+	move_to_beginning = "H",
+	move_to_end = "L",
+
+	-- Insert mode mappings
+	escape_semicolon = ";<Esc>",
+	escape_jj = "jj"
 }

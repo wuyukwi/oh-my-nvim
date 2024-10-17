@@ -13,8 +13,10 @@ if not vim.loop.fs_stat(lazypath) then
 		lazypath,
 	})
 end
+vim.opt.mouse = 'a'
 vim.opt.rtp:prepend(lazypath)
-
+vim.opt.clipboard = "unnamedplus"
+vim.api.nvim_set_keymap('i', 'jj', '<Esc>', { noremap = true, silent = true })
 vim.g.mapleader = require("custom_keys").leader
 vim.g.maplocalleader = "\\"
 
